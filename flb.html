@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flappy Plane</title>
+  <link rel="stylesheet" href="flappybird.css">
+</head>
+<body>
+<div id="main-menu" class="menu">
+  <h1 class="title">✈️ Flappy Plane</h1>
+  <p class="tagline">Dodge enemy UFOs. Avoid the Buildings. Survive!</p>
+  <button id="play">Play</button>
+  <button id="main-highscores">Highscores</button>
+</div>
+
+
+  <div id="game-over-menu" class="menu">
+    <div id="final-score"></div>
+    <button id="play-again">Play Again</button>
+    <button id="highscores">Highscores</button>
+  </div>
+
+  <div id="highscores-menu" class="menu">
+    <h2 style="color: white;">Top Scores</h2>
+    <ul id="highscores-list"></ul>
+    <button class="back-btn" id="back-to-main">Back to Main</button>
+  </div>
+
+  <div id="game-container">
+    <div id="score">0</div>
+    <img id="bird" src="images/plane.png" alt="Plane">
+  </div>
+
+  <script src="flb.js"></script>
+</body>
+</html>
